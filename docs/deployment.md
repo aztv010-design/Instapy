@@ -10,7 +10,12 @@
 
 ## Server Setup
 
-### 1. Install Dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r backend/requirements.txt
+        pip install pytest pytest-django
+
 
 ```bash
 sudo apt update && sudo apt upgrade -y
