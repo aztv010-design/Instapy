@@ -1,0 +1,10 @@
+{
+  "short_name": "Instapy",
+  "name": "Instapy - Instagram OSINT Platform",
+  "icons": [],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#1976d2"
+}
