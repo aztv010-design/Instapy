@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  postgres:
+    container_name: instapy_postgres_prod
+    image: postgres:15
+    environment:
+      POSTGRES_DB: instapy_db
+      POSTGRES_USER: instapy
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data_prod:/var/lib/postgresql/data
+    restart: always
+
+  redis:
+    container_name: instapy_redis_prod
+    image: redis:7
+    restart: always
+
+volumes:
+  postgres_data_prod:
