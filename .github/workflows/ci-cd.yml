@@ -24,7 +24,9 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Install dependencies
+          - name: Install dependencies
+      run: cd frontend && npm install
+
         run: |
           pip install -r backend/requirements.txt
       
