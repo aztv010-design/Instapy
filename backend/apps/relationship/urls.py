@@ -1,2 +1,6 @@
+from django.conf.urls import include
 from django.urls import path
-path('', lambda r: None)  # Placeholder
+
+urlpatterns = [
+    path('', include('rest_framework.urls')),
+]
