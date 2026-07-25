@@ -1,0 +1,49 @@
+{
+  "name": "instapy-frontend",
+  "version": "1.0.0",
+  "description": "Instapy - Advanced Instagram OSINT Platform Frontend",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mui/material": "^5.14.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/lab": "^5.0.0-alpha.60",
+    "axios": "^1.6.0",
+    "react-router-dom": "^6.17.0",
+    "redux": "^4.2.1",
+    "react-redux": "^8.1.3",
+    "@reduxjs/toolkit": "^1.9.7",
+    "recharts": "^2.10.3",
+    "d3": "^7.8.5",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.3",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "js-cookie": "^3.0.5",
+    "notistack": "^3.0.1",
+    "react-dropzone": "^14.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": ["> 0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
